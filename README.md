@@ -1,4 +1,5 @@
 # my-project
+#vue sentex emit
 # for axios setup
 npm install axios
 
