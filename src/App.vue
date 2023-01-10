@@ -9,12 +9,8 @@
         <!-- Main Sidebar Container -->
           <Sidebar_Page/>
         
-        <router-view/>
-        <!-- Content Wrapper. Contains page content -->
-        
-          <!-- <Dashboard_Page/> 
-          <UserList/>  -->
-        <!-- /.content-wrapper -->
+            <router-view/>
+       
 
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
@@ -31,19 +27,17 @@
 </template>
 
 <script>
-import Navbar_Page from './components/Navbar.vue'
- import Sidebar_Page from './components/Sidebar.vue'
-import Footer_Page from './components/Footer.vue'
-// import Dashboard_Page from './components/Dashboard.vue'
-// import UserList from './components/UserList.vue'
+import Navbar_Page from './components/layout/Navbar.vue'
+ import Sidebar_Page from './components/layout/Sidebar.vue'
+import Footer_Page from './components/layout/Footer.vue'
+
 export default {
     name: 'App',
      components: {
     Navbar_Page,
     Sidebar_Page,
     Footer_Page,
-    // Dashboard_Page,
-    //  UserList
+   
   }
 
 }

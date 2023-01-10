@@ -1,6 +1,6 @@
 import {createRouter,createWebHistory} from "vue-router";
-import UserList from "../components/UserList.vue";
-import Dashboard from "../components/Dashboard.vue";
+import UserList from "../components/pages/UserList.vue";
+import Dashboard from "../components/pages/Dashboard.vue";
 const routes=[
     {
       path: "/user-list",
