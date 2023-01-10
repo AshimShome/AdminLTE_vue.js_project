@@ -22,14 +22,14 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+           <li class="nav-item menu-open">
+            <router-link to="/" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
                 <!-- <i class="right fas fa-angle-left"></i> -->
               </p>
-            </a>
+            </router-link>
           
           </li>
           <li class="nav-item">
@@ -117,13 +117,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <router-link to="/user-list" class="nav-link">
               <i class="nav-icon far fa-plus-square"></i>
               <p>
-                 
-                 <router-link to="/user">User List</router-link>
+                 User List
+                 <!-- <router-link to="/user">User List</router-link> -->
               </p>
-            </a>
+            </router-link>
             </li>
         </ul>
       </nav>

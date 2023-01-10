@@ -7,12 +7,13 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        
           <Sidebar_Page/>
+        
+        <router-view/>
         <!-- Content Wrapper. Contains page content -->
         
-          <!-- <Dashboard_Page/> -->
-          <!-- <UserList/> -->
+          <!-- <Dashboard_Page/> 
+          <UserList/>  -->
         <!-- /.content-wrapper -->
 
         <!-- Control Sidebar -->
@@ -42,7 +43,7 @@ export default {
     Sidebar_Page,
     Footer_Page,
     // Dashboard_Page,
-    // UserList
+    //  UserList
   }
 
 }
